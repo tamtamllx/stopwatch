@@ -1,2 +1,2 @@
-# stopwatch
+# react-stopwatch
 Created with CodeSandbox
