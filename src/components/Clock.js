@@ -14,7 +14,7 @@ export default function Clock() {
   }, []);
   return (
     <div>
-      <h3>Clock: {currentTime}</h3>
+      <h4>Clock: {currentTime}</h4>
     </div>
   );
 }

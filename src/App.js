@@ -1,6 +1,7 @@
 import "./styles.css";
-import Clock from "../components/Clock";
-import Stopwatch from "../components/Stopwatch";
+import Clock from "./components/Clock";
+import Stopwatch from "./components/Stopwatch";
+import TeamCounter from "./components/TeamCounter";
 
 export default function App() {
   return (
@@ -8,7 +9,8 @@ export default function App() {
       <Clock />
       <h1>Start Game</h1>
       <Stopwatch />
-      <h2>Start editing to see some magic happen!</h2>
+      <TeamCounter team="A" />
+      <TeamCounter team="B" />
     </div>
   );
 }
